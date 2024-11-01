@@ -7,12 +7,12 @@ Last updated on 28th October 2024
 
 Description :-
 
-    The MP3 Tag Reader and Writer is a application that allows users to read and modify ID3 tags of MP3 audio 
+   The MP3 Tag Reader and Writer is a application that allows users to read and modify ID3 tags of MP3 audio 
 files. This project aims to provide an intuitive command-line interface for users to extract metadata from 
 MP3 files and edit existing tags or create new ones. The application supports both ID3v1 and ID3v2 (ID3v2.0, 
 ID3v2.1, ID3v2.2, ID3v2.3, ID3v2.4 ... ) tag formats.
 
-    The additional file which is created at the time of editing, is automaticaly deleted. 
+  The additional file which is created at the time of editing, is automaticaly deleted. 
  
 Here’s a breakdown to its key features :-
 
@@ -26,6 +26,7 @@ Here’s a breakdown to its key features :-
         -> -v: Reading command.
         -> Manasalaio.mp3 : Audio file
     -> output:
+ 
                 ----------------------------------------------------------------------
                                              Mp3 TAG Reader
                 ----------------------------------------------------------------------
@@ -42,7 +43,7 @@ Here’s a breakdown to its key features :-
                 Genre     : Telugu
                 ----------------------------------------------------------------------
 
-2. Writing:
+3. Writing:
     -> Write tags to enhance metadata storage.
     -> Usage Example:
         -> If you want to write tags,
@@ -54,6 +55,7 @@ Here’s a breakdown to its key features :-
         -> 2024: Data that need to store.
         -> Manasalaio.mp3: file to edit the tag in Audio file.
     -> Output:
+
                 ----------------------------------------------------------------------
                                              Mp3 TAG Reader
                 ----------------------------------------------------------------------
@@ -63,7 +65,7 @@ Here’s a breakdown to its key features :-
                 :::::::  Tag "-y" Successfully edited  ::::::::
                 ----------------------------------------------------------------------
 
-3. help menu:
+4. help menu:
     -> to display help menu.
     -> Usage Example:
         -> If you want to display help menu,
@@ -72,6 +74,7 @@ Here’s a breakdown to its key features :-
 
         -> -h: help menu requeste.
     -> Output:
+
                 ---------------------------------------------------------------------
                                              Mp3 TAG Reader
                 ----------------------------------------------------------------------
@@ -97,10 +100,11 @@ Here’s a breakdown to its key features :-
                 [Data] : Enter the Data to write and use _ instead of space
                 ----------------------------------------------------------------------   
                 
-4. If wrong command passed:
+5. If wrong command passed:
     -> it will display error with some basic help menu.
     -> output:
-                ----------------------------------------------------------------------
+
+               ----------------------------------------------------------------------
                                              Mp3 TAG Reader
                 ----------------------------------------------------------------------
                 ERROR: Invaild Command Passed
